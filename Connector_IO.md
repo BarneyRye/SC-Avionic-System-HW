@@ -5,7 +5,7 @@
 | RC Input | SBUS, 5V, GND |
 | ESC/Servos| 6x PWM/timers, GND, (Power off-board) |
 | IMU | SPI1 |
-| Baro | I2C |
+| Baro/Magno | I2C |
 | GPS | UART, 3.3V, GND |
 | SD Card | SDMMC |
 | SWD | SWDIO, SWCLK, SWO, NRST |
