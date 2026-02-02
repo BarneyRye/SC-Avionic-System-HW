@@ -1,4 +1,4 @@
-## Power Input and Rails ##:
+## Power Input and Rails:
 
 ## Battery Input
 `6-12V Battery Input for servos and motors` <br>
