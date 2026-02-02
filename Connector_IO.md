@@ -2,11 +2,11 @@
 
 | Device | Connectors |
 | ------ | ---------- |
-| RC Input | SBUS, 3.3V, GND |
+| RC Input | SBUS, 5V, GND |
 | ESC/Servos| 6x PWM/timers, GND, (Power off-board) |
 | IMU | SPI1 |
 | Baro | I2C |
-| GPS | UART, 5V, GND |
+| GPS | UART, 3.3V, GND |
 | SD Card | SPI2 |
 | SWD | SWDIO, SWCLK, SWO, NRST |
-|CAN | CANH |
+|CAN | CANH, CANL, GND, 5V |
