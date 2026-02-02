@@ -4,6 +4,7 @@
 `6-12V Battery Input for servos and motors` <br>
 `Battery input with TSV, bulk capacitor, polyfuse and reverse polarity potection` <br>
 `->Battery to 5V rail via buck converter` <br>
+`5v rail from ESC to FC` <br>
 `->5V to 3.3v rail via LDO for sensors/MCU` <br>
 
 ## USB Input
