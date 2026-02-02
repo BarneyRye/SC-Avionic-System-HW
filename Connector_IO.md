@@ -1,3 +1,5 @@
+## Device and Connectors
+
 | Device | Connectors |
 | ------ | ---------- |
 | RC Input | SBUS |
