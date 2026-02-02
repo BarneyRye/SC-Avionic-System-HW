@@ -7,6 +7,6 @@
 | IMU | SPI1 |
 | Baro | I2C |
 | GPS | UART, 3.3V, GND |
-| SD Card | SPI2 |
+| SD Card | SDMMC |
 | SWD | SWDIO, SWCLK, SWO, NRST |
 |CAN | CANH, CANL, GND, 5V |
