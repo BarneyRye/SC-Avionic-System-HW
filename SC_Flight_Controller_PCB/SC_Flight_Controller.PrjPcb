@@ -134,6 +134,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XPSDMVQY
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for SC_Flight_Controller\Design Rule Check - FC_PCB.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
