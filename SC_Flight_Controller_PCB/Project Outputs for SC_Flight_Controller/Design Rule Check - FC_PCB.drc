@@ -1,40 +1,21 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc
 Date     : 08/02/2026
-Time     : 12:31:44
+Time     : 14:24:25
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
-   Violation between Clearance Constraint: (Collision < 0.102mm) Between Pad Free-2(3.5mm,57.5mm) on Multi-Layer And Track (0mm,57.5mm)(3.5mm,57.5mm) on Multi-Layer 
-   Violation between Clearance Constraint: (Collision < 0.102mm) Between Pad Free-2(3.5mm,57.5mm) on Multi-Layer And Track (3.5mm,57.5mm)(3.5mm,61mm) on Multi-Layer 
-   Violation between Clearance Constraint: (0.077mm < 0.102mm) Between Pad U1-1(27.665mm,38.217mm) on Top Layer And Track (26.264mm,38.481mm)(26.905mm,37.84mm) on Top Layer 
    Violation between Clearance Constraint: (0.047mm < 0.102mm) Between Pad U1-26(29.403mm,24.479mm) on Top Layer And Track (29.508mm,23.496mm)(29.625mm,23.613mm) on Top Layer 
    Violation between Clearance Constraint: (0.047mm < 0.102mm) Between Pad U1-26(29.403mm,24.479mm) on Top Layer And Track (29.625mm,23.613mm)(29.633mm,23.613mm) on Top Layer 
    Violation between Clearance Constraint: (0.047mm < 0.102mm) Between Pad U1-26(29.403mm,24.479mm) on Top Layer And Track (29.633mm,23.613mm)(29.751mm,23.731mm) on Top Layer 
    Violation between Clearance Constraint: (0.097mm < 0.102mm) Between Pad U1-26(29.403mm,24.479mm) on Top Layer And Track (29.751mm,23.731mm)(29.751mm,23.816mm) on Top Layer 
    Violation between Clearance Constraint: (0.097mm < 0.102mm) Between Pad U1-26(29.403mm,24.479mm) on Top Layer And Track (29.751mm,23.816mm)(29.899mm,23.964mm) on Top Layer 
-   Violation between Clearance Constraint: (0.028mm < 0.102mm) Between Pad U1-3(27.665mm,37.217mm) on Top Layer And Track (28.299mm,36.84mm)(28.397mm,36.938mm) on Top Layer 
-   Violation between Clearance Constraint: (0.028mm < 0.102mm) Between Pad U1-3(27.665mm,37.217mm) on Top Layer And Track (28.397mm,36.938mm)(28.482mm,36.938mm) on Top Layer 
-   Violation between Clearance Constraint: (0.047mm < 0.102mm) Between Pad U1-3(27.665mm,37.217mm) on Top Layer And Track (28.482mm,36.938mm)(28.6mm,37.056mm) on Top Layer 
-   Violation between Clearance Constraint: (0.097mm < 0.102mm) Between Pad U1-3(27.665mm,37.217mm) on Top Layer And Track (28.6mm,37.056mm)(28.6mm,37.142mm) on Top Layer 
-   Violation between Clearance Constraint: (0.097mm < 0.102mm) Between Pad U1-3(27.665mm,37.217mm) on Top Layer And Track (28.6mm,37.142mm)(28.804mm,37.346mm) on Top Layer 
-   Violation between Clearance Constraint: (0.053mm < 0.102mm) Between Pad U1-4(27.665mm,36.717mm) on Top Layer And Track (23.994mm,39.284mm)(26.938mm,36.34mm) on Top Layer 
-Rule Violations :14
+Rule Violations :5
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Pad Free-2(3.5mm,57.5mm) on Multi-Layer And Track (0mm,57.5mm)(3.5mm,57.5mm) on Multi-Layer Location : [X = 61.778mm][Y = 117.19mm]
-   Violation between Short-Circuit Constraint: Between Pad Free-2(3.5mm,57.5mm) on Multi-Layer And Track (3.5mm,57.5mm)(3.5mm,61mm) on Multi-Layer Location : [X = 63.215mm][Y = 118.627mm]
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Track (0mm,0mm)(0mm,61mm) on Multi-Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Track (0mm,0mm)(73mm,0mm) on Multi-Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Track (0mm,57.5mm)(0mm,61mm) on Multi-Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Track (0mm,57.5mm)(3.5mm,57.5mm) on Multi-Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Track (0mm,61mm)(3.5mm,61mm) on Multi-Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Track (0mm,61mm)(73mm,61mm) on Multi-Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Track (3.5mm,57.5mm)(3.5mm,61mm) on Multi-Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Track (73mm,0mm)(73mm,61mm) on Multi-Layer Dead Copper - Net Not Assigned.
-Rule Violations :8
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -76,18 +57,10 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (0mm,0mm)(0mm,61mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (0mm,0mm)(73mm,0mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (0mm,57.5mm)(0mm,61mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (0mm,57.5mm)(3.5mm,57.5mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (0mm,61mm)(3.5mm,61mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (0mm,61mm)(73mm,61mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (3.5mm,57.5mm)(3.5mm,61mm) on Multi-Layer 
    Violation between Board Outline Clearance(Outline Edge): (0.198mm < 0.2mm) Between Board Edge And Track (71.488mm,37.186mm)(72.738mm,37.186mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (0.198mm < 0.2mm) Between Board Edge And Track (71.488mm,46.126mm)(72.738mm,46.126mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (0.198mm < 0.2mm) Between Board Edge And Track (72.738mm,37.186mm)(72.738mm,46.126mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (73mm,0mm)(73mm,61mm) on Multi-Layer 
-Rule Violations :11
+Rule Violations :3
 
 Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)
 Rule Violations :0
@@ -99,12 +72,8 @@ Waived Violations Of Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
    Waived Violation between Clearance Constraint: (0.201mm < 0.25mm) Between Hole of Pad J6-(66.458mm,44.546mm) on Multi-Layer And Pad J6-B4_A9(65.393mm,44.056mm) on Top Layer Waived by Barnavy The at 08/02/2026 12:10:33
 Waived Violations :4
 
-Waived Violations Of Rule : Un-Routed Net Constraint ( (All) )
-   Waived Violation between Un-Routed Net Constraint: Net CANL Between Pad P1-3(28.042mm,58.293mm) on Multi-Layer And Pad P1-4(30.042mm,58.293mm) on Multi-Layer Waived by Barnavy The at 08/02/2026 12:13:38
-Waived Violations :1
 
-
-Violations Detected : 35
-Waived Violations : 5
+Violations Detected : 8
+Waived Violations : 4
 PCB Health Issues : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00
