@@ -1,15 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc
 Date     : 08/02/2026
-Time     : 14:24:25
+Time     : 14:27:29
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
-   Violation between Clearance Constraint: (0.047mm < 0.102mm) Between Pad U1-26(29.403mm,24.479mm) on Top Layer And Track (29.508mm,23.496mm)(29.625mm,23.613mm) on Top Layer 
-   Violation between Clearance Constraint: (0.047mm < 0.102mm) Between Pad U1-26(29.403mm,24.479mm) on Top Layer And Track (29.625mm,23.613mm)(29.633mm,23.613mm) on Top Layer 
-   Violation between Clearance Constraint: (0.047mm < 0.102mm) Between Pad U1-26(29.403mm,24.479mm) on Top Layer And Track (29.633mm,23.613mm)(29.751mm,23.731mm) on Top Layer 
-   Violation between Clearance Constraint: (0.097mm < 0.102mm) Between Pad U1-26(29.403mm,24.479mm) on Top Layer And Track (29.751mm,23.731mm)(29.751mm,23.816mm) on Top Layer 
-   Violation between Clearance Constraint: (0.097mm < 0.102mm) Between Pad U1-26(29.403mm,24.479mm) on Top Layer And Track (29.751mm,23.816mm)(29.899mm,23.964mm) on Top Layer 
-Rule Violations :5
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -73,7 +68,7 @@ Waived Violations Of Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
 Waived Violations :4
 
 
-Violations Detected : 8
+Violations Detected : 3
 Waived Violations : 4
 PCB Health Issues : 0
 Time Elapsed        : 00:00:00
