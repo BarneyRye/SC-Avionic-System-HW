@@ -1,0 +1,36 @@
+Added Component: Designator=D5(TVS_PTVS5V0S1UR)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-123 Nexperia USA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PTVS5V0S1UR/Nexperia/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "PTVS5V0S1UR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Nexperia USA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PTVS5V0S1UR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/PTVS5V0S1UR/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PTVS5V0S1UR/Nexperia/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "PTVS5V0S1UR.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D6(TVS_PTVS5V0S1UR)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-123 Nexperia USA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PTVS5V0S1UR/Nexperia/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "PTVS5V0S1UR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Nexperia USA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PTVS5V0S1UR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/PTVS5V0S1UR/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PTVS5V0S1UR/Nexperia/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "PTVS5V0S1UR.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D5-A
+Added Pin To Net: NetName=5V Pin=D5-C
+Added Pin To Net: NetName=GND Pin=D6-A
+Added Pin To Net: NetName=VBAT Pin=D6-C
+Added Member To Class: ClassName=FC_Main Member=Component D5 PTVS5V0S1UR
+Added Member To Class: ClassName=FC_Sheet2 Member=Component D6 PTVS5V0S1UR
+Added Member To Class: ClassName=FC_Main Member=Component P1 B4B-PH-K-S(LF)(SN)
+Added Member To Class: ClassName=FC_Main Member=Component R8 Resistor 120 +/-1 % 0402 63 mW
