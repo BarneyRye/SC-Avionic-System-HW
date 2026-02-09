@@ -1,0 +1,403 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD25\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">08/02/2026</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">14:27:29</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc" class="file"><acronym title="C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc">C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">3</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Waived Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">4</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">PCB Health Issues:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+</table>
+</td>
+</table><a name="IDW5LJULIINZPYG4P1VLEAYTJ4ODUSDDLIEE4B1EONI3VFBKOE5QY"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDA4AKDSODYBMKG3EO24G1O3A5KJDPB0CCHTTPUOHRQ2BVSXOS2HWN">Clearance Constraint (Gap=0.102mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDG3DUJ10YBVMTLJFH21XKRFQOXPKZ3OWJX5OZSKM4CPQX3NJQZ5YB">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZ4D3DQKRSCFUG1SXPM4YJ22JRNDRBLDU4N40U3FJMVTDEGPIANHD">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2HT2IWYAOSWLG1UUCSR3XFRIEC4FXOJIHPTQ3ODWMSLIM5OZSZ5C">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4LLRB4YAU4K0LM3WPPJVIMN0OG3QAPCEW0QY1TD43KYLAJDH2CYG">Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.5mm) (InNetClass('Power'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDQY4Y0OEV1W0L52JAYL5UNPA4DPKBPJYEZL0LIISJJTCKTM0NPHE">Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHJS5INFMRAVCJIVXU5L4ZGRHIHSRQ0Q5ZKUAWXLZAHC5S4XKLLCD">Routing Topology Rule(Topology=Shortest) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHFREMR52SAPDPLIGWVGQKXHDHFYBBF0CRS2EVTEQXNTT5IQVC2VJ">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWFCHI0GGSUL1P5D52WKXTBAPVBILMIU3E5SGKNHMPINDA25FQ3LJ">Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDY2SWE0MQ01QZFJZIM4ARWOSXZMVPYLOMZZPBE0CCTSQDDDCFIQZH">Minimum Annular Ring (Minimum=0.076mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRYGK03NMPEFTM2VA455NZAIKKHGLIMOCQ2Z3SMFFCPPRZQN1R2IG">Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSD1GTV5KZF5SINGJ2FYPMH24KDKDOIXT4YA01YISYG2ZPQA5CLXG">Hole To Hole Clearance (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPFI3JEH40IOWGERTU23LNBUU1OJBUM3NHQX5GBLGBR1Q55SIDT0L">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDY3K1ZQJ3VTTJKEE22KYCBCR5DCASJ3ZMOV0A50NGGM0VP2A5BSIE">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPBLDTACVRKZCNTHCQAX5DJYAPFVZFL1JMHCLTZK2XJSHHRRP112E">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2MB3JHOEI2RYIFAK4CKYH3WCYLY3IUTBRGYVG5C2WJXE4LLPCQ5P">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDM2MXDWDMIODPFQYYR0TXVZ0HDKRTAPWUSELB5XGFUXKG5HRWNIGG">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDN2BR4VIQDRGGCJDPCB2AI5GOAIKYT5XLDGHLK4D2BWOJEOBISUGJ">Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">3</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Waived Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRU255NKBKHXAFYBZLZBHNY1Q5N1GOMSEDG1HZWLDSSI3Q3BZ5FDM">Clearance Constraint (Gap=0.102mm) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">4</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">PCB Health Issues</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><a name="IDA1VPQAX2OVDVMA2Y0TCLL3L5MGZGKKSXZUFCRGEXTOT2KNIP3UVN"><h2>Rule Violations</h2></a><a name="IDM2MXDWDMIODPFQYYR0TXVZ0HDKRTAPWUSELB5XGFUXKG5HRWNIGG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5216.531mil|Location2.X=5225.655mil|Location1.Y=3809.454mil|Location2.Y=3818.578mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5216.531mil|Location2.X=5225.655mil|Location1.Y=3809.454mil|Location2.Y=3818.578mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.198mm &lt; 0.2mm) Between Board Edge And Track (71.488mm,37.186mm)(72.738mm,37.186mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5216.531mil|Location2.X=5225.655mil|Location1.Y=4161.422mil|Location2.Y=4170.546mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5216.531mil|Location2.X=5225.655mil|Location1.Y=4161.422mil|Location2.Y=4170.546mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.198mm &lt; 0.2mm) Between Board Edge And Track (71.488mm,46.126mm)(72.738mm,46.126mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5216.531mil|Location2.X=5225.655mil|Location1.Y=3809.454mil|Location2.Y=3818.578mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5216.531mil|Location2.X=5225.655mil|Location1.Y=3809.454mil|Location2.Y=3818.578mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.198mm &lt; 0.2mm) Between Board Edge And Track (72.738mm,37.186mm)(72.738mm,46.126mm) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID2SG5YMB2TGBUHVPZ0VIWXDDHOODNFDY5LVSCBLJMFYFD2ZQEB0IH"><h2>Waived Violations</h2></a><a name="IDRU255NKBKHXAFYBZLZBHNY1Q5N1GOMSEDG1HZWLDSSI3Q3BZ5FDM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Clearance Constraint (Gap=0.102mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4945.852mil|Location2.X=4956.945mil|Location1.Y=3870.347mil|Location2.Y=3881.439mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4945.852mil|Location2.X=4956.945mil|Location1.Y=3870.347mil|Location2.Y=3881.439mil|Absolute=True">Clearance Constraint: (0.165mm &lt; 0.25mm) Between Hole of Pad J6-(66.458mm,38.766mm) on Multi-Layer And Pad J6-A1_B12(65.393mm,38.456mm) on Top Layer </acronym></a><br>Waived by Barnavy The at 08/02/2026 12:10:33</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4946.284mil|Location2.X=4957.376mil|Location1.Y=3876.727mil|Location2.Y=3892.202mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4946.284mil|Location2.X=4957.376mil|Location1.Y=3876.727mil|Location2.Y=3892.202mil|Absolute=True">Clearance Constraint: (0.201mm &lt; 0.25mm) Between Hole of Pad J6-(66.458mm,38.766mm) on Multi-Layer And Pad J6-A4_B9(65.393mm,39.256mm) on Top Layer </acronym></a><br>Waived by Barnavy The at 08/02/2026 12:10:33</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4945.852mil|Location2.X=4956.945mil|Location1.Y=4098.561mil|Location2.Y=4109.653mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4945.852mil|Location2.X=4956.945mil|Location1.Y=4098.561mil|Location2.Y=4109.653mil|Absolute=True">Clearance Constraint: (0.165mm &lt; 0.25mm) Between Hole of Pad J6-(66.458mm,44.546mm) on Multi-Layer And Pad J6-B1_A12(65.393mm,44.856mm) on Top Layer </acronym></a><br>Waived by Barnavy The at 08/02/2026 12:10:33</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4946.284mil|Location2.X=4957.376mil|Location1.Y=4087.847mil|Location2.Y=4103.272mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4946.284mil|Location2.X=4957.376mil|Location1.Y=4087.847mil|Location2.Y=4103.272mil|Absolute=True">Clearance Constraint: (0.201mm &lt; 0.25mm) Between Hole of Pad J6-(66.458mm,44.546mm) on Multi-Layer And Pad J6-B4_A9(65.393mm,44.056mm) on Top Layer </acronym></a><br>Waived by Barnavy The at 08/02/2026 12:10:33</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

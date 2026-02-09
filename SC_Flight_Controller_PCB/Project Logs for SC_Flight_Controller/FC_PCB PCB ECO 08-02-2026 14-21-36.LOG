@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=CANL Pin=D1-2
+Removed Pin From Net: NetName=CANL Pin=IC1-7
+Removed Pin From Net: NetName=CANL Pin=P1-4
+Removed Pin From Net: NetName=CANL Pin=R8-2
+Change Net Name : Old Net Name=RC_RX_PAD New Net Name=NetJ1_1
+Change Net Name : Old Net Name=RC_TX_PAD New Net Name=NetJ4_1
+Added Pin To Net: NetName=CANH Pin=D1-2
+Added Pin To Net: NetName=CANH Pin=IC1-7
+Added Pin To Net: NetName=CANH Pin=P1-4
+Added Pin To Net: NetName=CANH Pin=R8-2
+Added Net: Name=CANH
+Added Member To Class: ClassName=FC_Main Member=Component J6 TYPE-C_16PIN_2MD_(073)

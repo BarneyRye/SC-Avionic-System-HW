@@ -1,0 +1,26 @@
+Added Component: Designator=J?(SHOUHAN_TYPE-C_16PIN_2MD_(073))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TYPE-C%2016PIN%202MD%20(073)/Shouhan/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "TYPE-C_16PIN_2MD_(073)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Shouhan"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TYPE-C 16PIN 2MD (073)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TYPE-C%2016PIN%202MD%20(073)/Shouhan/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "TYPE-C_16PIN_2MD_(073).SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J?-A1_B12
+Added Pin To Net: NetName=VBUS Pin=J?-A4_B9
+Added Pin To Net: NetName=CC1 Pin=J?-A5
+Added Pin To Net: NetName=USB_D_P Pin=J?-A6
+Added Pin To Net: NetName=STM_D_N Pin=J?-A7
+Added Pin To Net: NetName=GND Pin=J?-B1_A12
+Added Pin To Net: NetName=VBUS Pin=J?-B4_A9
+Added Pin To Net: NetName=CC2 Pin=J?-B5
+Added Pin To Net: NetName=USB_D_P Pin=J?-B6
+Added Pin To Net: NetName=USB_D_N Pin=J?-B7
+Added Pin To Net: NetName=GND Pin=J?-SH1
+Added Pin To Net: NetName=GND Pin=J?-SH2
+Added Pin To Net: NetName=GND Pin=J?-SH3
+Added Pin To Net: NetName=GND Pin=J?-SH4
+Added Member To Class: ClassName=FC_Main Member=Component J? TYPE-C_16PIN_2MD_(073)

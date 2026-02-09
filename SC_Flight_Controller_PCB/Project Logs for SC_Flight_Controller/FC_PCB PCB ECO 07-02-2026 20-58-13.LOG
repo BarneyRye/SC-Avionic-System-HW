@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=STM_D_N Pin=J6-A7
+Added Pin To Net: NetName=USB_D_N Pin=J6-A7
