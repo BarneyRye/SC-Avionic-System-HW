@@ -1,0 +1,223 @@
+Removed Member From Class: ClassName=FC_Main Member=D4
+Removed Member From Class: ClassName=FC_Main Member=D5
+Removed Member From Class: ClassName=FC_Sheet2 Member=J19
+Removed Member From Class: ClassName=FC_Sheet2 Member=R18
+Removed Member From Class: ClassName=FC_Sheet2 Member=R19
+Removed Member From Class: ClassName=FC_Main Member=R21
+Added Component: Designator=J21(3x2mm Pad-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J22(3x2mm Pad-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J23(3x2mm Pad-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J24(3x2mm Pad-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J25(3x2mm Pad-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J26(3x2mm Pad-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J27(3x2mm Pad-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J28(3x2mm Pad-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J29(3x2mm Pad-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J30(3x2mm Pad-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J31(3x2mm Pad-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J32(3x2mm Pad-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J25-1
+Added Pin To Net: NetName=VBAT Pin=J26-1
+Added Pin To Net: NetName=GND Pin=J31-1
+Added Pin To Net: NetName=VBAT Pin=J32-1
+Added Pin To Net: NetName=NetJ21_1 Pin=J21-1
+Added Pin To Net: NetName=NetJ21_1 Pin=R35-1
+Added Net: Name=NetJ21_1
+Added Pin To Net: NetName=NetJ22_1 Pin=J22-1
+Added Pin To Net: NetName=NetJ22_1 Pin=R36-1
+Added Net: Name=NetJ22_1
+Added Pin To Net: NetName=NetJ23_1 Pin=J23-1
+Added Pin To Net: NetName=NetJ23_1 Pin=R37-1
+Added Net: Name=NetJ23_1
+Added Pin To Net: NetName=NetJ24_1 Pin=J24-1
+Added Pin To Net: NetName=NetJ24_1 Pin=R38-1
+Added Net: Name=NetJ24_1
+Added Pin To Net: NetName=NetJ27_1 Pin=J27-1
+Added Pin To Net: NetName=NetJ27_1 Pin=R45-1
+Added Net: Name=NetJ27_1
+Added Pin To Net: NetName=NetJ28_1 Pin=J28-1
+Added Pin To Net: NetName=NetJ28_1 Pin=R42-1
+Added Net: Name=NetJ28_1
+Added Pin To Net: NetName=NetJ29_1 Pin=J29-1
+Added Pin To Net: NetName=NetJ29_1 Pin=R43-1
+Added Net: Name=NetJ29_1
+Added Pin To Net: NetName=NetJ30_1 Pin=J30-1
+Added Pin To Net: NetName=NetJ30_1 Pin=R44-1
+Added Net: Name=NetJ30_1
+Added Member To Class: ClassName=FC_Main Member=Component C6 Capacitor 100nF +/-20% 10V 0402
+Added Member To Class: ClassName=FC_Main Member=Component C7 Capacitor 2,2µF +/-20% 10V 0402
+Added Member To Class: ClassName=FC_Main Member=Component C8 Capacitor 100nF +/-20% 10V 0402
+Added Member To Class: ClassName=FC_Sheet2 Member=Component C22 Capacitor 22µF +/-40% 16V 0805
+Added Member To Class: ClassName=FC_Sheet2 Member=Component C24 Capacitor 100nF +/-20% 10V 0402
+Added Member To Class: ClassName=FC_Sheet2 Member=Component C26 Capacitor 22µF +/-40% 16V 0805
+Added Member To Class: ClassName=FC_Main Member=Component D1 PTVS5V0S1UR
+Added Member To Class: ClassName=FC_Main Member=Component D2 PTVS5V0S1UR
+Added Member To Class: ClassName=FC_Sheet2 Member=Component D6 BAT160C
+Added Member To Class: ClassName=FC_Main Member=Component J1 TYPE-C_16PIN_2MD_(073)
+Added Member To Class: ClassName=FC_Main Member=Component J2 3x2mm Pad
+Added Member To Class: ClassName=FC_Main Member=Component J3 3x2mm Pad
+Added Member To Class: ClassName=FC_Main Member=Component J5 3x2mm Pad
+Added Member To Class: ClassName=FC_Main Member=Component J8 3x2mm Pad
+Added Member To Class: ClassName=FC_Main Member=Component J10 3x2mm Pad
+Added Member To Class: ClassName=FC_Main Member=Component J12 3x2mm Pad
+Added Member To Class: ClassName=FC_Main Member=Component J14 3x2mm Pad
+Added Member To Class: ClassName=FC_Main Member=Component J16 3x2mm Pad
+Added Member To Class: ClassName=FC_Main Member=Component J18 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J20 TF-01A
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J21 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J22 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J23 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J24 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J25 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J26 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J27 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J28 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J29 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J30 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J31 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component J32 3x2mm Pad
+Added Member To Class: ClassName=FC_Main Member=Component R3 Resistor 10K  +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Main Member=Component R4 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Main Member=Component R8 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Main Member=Component R10 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Main Member=Component R18 Resistor 470R +/-5% 0805 125 mW
+Added Member To Class: ClassName=FC_Main Member=Component R19 Resistor 470R +/-5% 0805 125 mW
+Added Member To Class: ClassName=FC_Main Member=Component R20 Resistor 470R +/-5% 0805 125 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R22 4D7KR2F
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R24 Resistor 100K +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R25 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R26 Resistor 100K +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R28 Resistor 10K  +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R30 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R32 4D7KR2F
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R34 Resistor 10K  +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R36 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R38 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R40 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R42 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R43 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R44 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R45 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R46 Resistor 10K  +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R47 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R49 Resistor 22 +/-1 % 0402 63 mW
