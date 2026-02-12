@@ -1,0 +1,11 @@
+Added Component: Designator=J1(FP-B4B-PH-SM4-TB-MFG)
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=CANL Pin=J1-3
+Added Pin To Net: NetName=CANH Pin=J1-4
+Added Member To Class: ClassName=FC_Main Member=Component J1 3x2mm Pad
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R46 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R47 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component R48 Resistor 22 +/-1 % 0402 63 mW
+Added Member To Class: ClassName=FC_Sheet2 Member=Component U5 BMI270

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=IMU2_MISO Pin=R47-2
+Removed Pin From Net: NetName=IMU2_MOSI Pin=R48-2
+Added Pin To Net: NetName=IMU2_MOSI Pin=R47-2
+Added Pin To Net: NetName=IMU2_MISO Pin=R48-2
+Added Member To Class: ClassName=FC_Main Member=Component U1 STM32H743VIT6

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=5V Pin=J1-1
+Added Pin To Net: NetName=VBAT Pin=J1-1
+Added Member To Class: ClassName=FC_Main Member=Component D1 ESD2CAN24DCKRQ1
+Added Member To Class: ClassName=FC_Main Member=Component J1 3x2mm Pad

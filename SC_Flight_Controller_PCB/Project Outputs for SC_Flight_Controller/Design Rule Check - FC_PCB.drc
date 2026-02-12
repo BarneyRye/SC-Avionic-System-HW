@@ -1,9 +1,18 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Barne\Documents\Barney Docs\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc
-Date     : 08/02/2026
-Time     : 14:27:29
+Date     : 12/02/2026
+Time     : 09:29:51
 
-Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
+Processing Rule : Clearance Constraint (Gap=0.25mm) ((InNetClass('SD_CARD') OR InNetClass('SENSORS_SPI'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (InNetClass('I2C')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('RF')),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -15,19 +24,35 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.5mm) (InNetClass('Power'))
+Processing Rule : Width Constraint (Min=0.127mm) (Max=0.3mm) (Preferred=0.15mm) (All)
+   Violation between Width Constraint: Track (10.925mm,21.082mm)(10.925mm,22.482mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (10.925mm,21.082mm)(11.919mm,22.076mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (11.919mm,22.076mm)(11.919mm,22.46mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (11.919mm,22.46mm)(11.938mm,22.479mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mm
+Rule Violations :4
+
+Processing Rule : Width Constraint (Min=0.15mm) (Max=0.3mm) (Preferred=0.2mm) (InNetClass('RF'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.2mm) (All)
+Processing Rule : Width Constraint (Min=0.15mm) (Max=0.3mm) (Preferred=0.2mm) (InNetClass('I2C'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.3mm) (Max=1mm) (Preferred=0.5mm) (InNetClass('POWER'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.13mm) (Max=0.15mm) (Preferred=0.135mm) ((InNetClass('FLASH_SPI') OR InNetClass('SD_CARD')))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.15mm) (Max=0.2mm) (Preferred=0.15mm) (InNetClass('SENSORS_SPI'))
 Rule Violations :0
 
 Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=0.076mm) (All)
@@ -52,23 +77,50 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Violation between Board Outline Clearance(Outline Edge): (0.198mm < 0.2mm) Between Board Edge And Track (71.488mm,37.186mm)(72.738mm,37.186mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.198mm < 0.2mm) Between Board Edge And Track (71.488mm,46.126mm)(72.738mm,46.126mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.198mm < 0.2mm) Between Board Edge And Track (72.738mm,37.186mm)(72.738mm,46.126mm) on Top Overlay 
-Rule Violations :3
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
-Waived Violations Of Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
-   Waived Violation between Clearance Constraint: (0.165mm < 0.25mm) Between Hole of Pad J6-(66.458mm,38.766mm) on Multi-Layer And Pad J6-A1_B12(65.393mm,38.456mm) on Top Layer Waived by Barnavy The at 08/02/2026 12:10:33
-   Waived Violation between Clearance Constraint: (0.201mm < 0.25mm) Between Hole of Pad J6-(66.458mm,38.766mm) on Multi-Layer And Pad J6-A4_B9(65.393mm,39.256mm) on Top Layer Waived by Barnavy The at 08/02/2026 12:10:33
-   Waived Violation between Clearance Constraint: (0.165mm < 0.25mm) Between Hole of Pad J6-(66.458mm,44.546mm) on Multi-Layer And Pad J6-B1_A12(65.393mm,44.856mm) on Top Layer Waived by Barnavy The at 08/02/2026 12:10:33
-   Waived Violation between Clearance Constraint: (0.201mm < 0.25mm) Between Hole of Pad J6-(66.458mm,44.546mm) on Multi-Layer And Pad J6-B4_A9(65.393mm,44.056mm) on Top Layer Waived by Barnavy The at 08/02/2026 12:10:33
-Waived Violations :4
+Waived Violations Of Rule : Width Constraint (Min=0.127mm) (Max=0.3mm) (Preferred=0.15mm) (All)
+   Waived Violation between Width Constraint: Track (28.194mm,21.945mm)(28.572mm,21.567mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:53:48
+   Waived Violation between Width Constraint: Track (28.194mm,21.971mm)(28.95mm,21.971mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (28.572mm,20.701mm)(28.572mm,21.567mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:53:53
+   Waived Violation between Width Constraint: Track (28.572mm,21.593mm)(28.95mm,21.971mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (31.369mm,34.417mm)(32.659mm,34.417mm) on Top Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:54:06
+   Waived Violation between Width Constraint: Track (33.023mm,50.546mm)(34.163mm,50.546mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (33.655mm,36.703mm)(34.163mm,36.195mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:54:10
+   Waived Violation between Width Constraint: Track (33.655mm,36.703mm)(34.671mm,36.703mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (34.163mm,34.931mm)(34.163mm,36.195mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:54:14
+   Waived Violation between Width Constraint: Track (34.163mm,36.195mm)(34.671mm,36.703mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (34.163mm,50.546mm)(34.671mm,51.054mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:54:17
+   Waived Violation between Width Constraint: Track (34.182mm,50.454mm)(34.182mm,50.546mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (34.182mm,50.454mm)(34.671mm,49.965mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:54:23
+   Waived Violation between Width Constraint: Track (34.671mm,49.911mm)(34.671mm,49.965mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (34.671mm,50.057mm)(34.671mm,51.054mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:54:27
+   Waived Violation between Width Constraint: Track (41.343mm,26.192mm)(41.9mm,26.192mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (41.91mm,26.162mm)(42.291mm,25.781mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (41.9mm,26.192mm)(42.251mm,26.543mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:54:32
+   Waived Violation between Width Constraint: Track (42.291mm,25.781mm)(42.291mm,26.543mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:54:36
+   Waived Violation between Width Constraint: Track (42.291mm,26.543mm)(42.291mm,27.697mm) on Top Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (42.291mm,26.543mm)(43.18mm,26.543mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (43.18mm,27.443mm)(43.18mm,29.885mm) on Bottom Layer Actual Width = 0.5mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+Waived Violations :22
+
+Waived Violations Of Rule : Width Constraint (Min=0.3mm) (Max=1mm) (Preferred=0.5mm) (InNetClass('POWER'))
+   Waived Violation between Width Constraint: Track (13.462mm,33.274mm)(17.145mm,33.274mm) on Bottom Layer Actual Width = 0.15mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (17.145mm,33.274mm)(18.288mm,34.417mm) on Bottom Layer Actual Width = 0.15mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (18.288mm,34.417mm)(18.288mm,36.957mm) on Bottom Layer Actual Width = 0.15mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (18.288mm,36.957mm)(19.431mm,38.1mm) on Bottom Layer Actual Width = 0.15mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (19.431mm,38.1mm)(24.257mm,38.1mm) on Bottom Layer Actual Width = 0.15mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (24.257mm,38.1mm)(30.226mm,32.131mm) on Bottom Layer Actual Width = 0.15mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (30.226mm,32.131mm)(34.163mm,32.131mm) on Bottom Layer Actual Width = 0.15mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (35.533mm,31.458mm)(36.411mm,31.458mm) on Top Layer Actual Width = 0.2mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (9.158mm,26.358mm)(9.158mm,28.97mm) on Bottom Layer Actual Width = 0.15mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+   Waived Violation between Width Constraint: Track (9.158mm,28.97mm)(13.462mm,33.274mm) on Bottom Layer Actual Width = 0.15mm, Target Width = 0.3mmWaived by Barnavy The at 11/02/2026 20:57:05
+Waived Violations :10
 
 
-Violations Detected : 3
-Waived Violations : 4
-PCB Health Issues : 0
+Violations Detected : 4
+Waived Violations : 32
 Time Elapsed        : 00:00:00
