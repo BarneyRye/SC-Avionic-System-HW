@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Users\Barne\Documents\Visual Studio Code\SC-Avionics-System\SC-Avionic-System-HW\SC_Flight_Controller_PCB\FC_PCB.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=fc_pcb-roundholes-plated.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=fc_pcb-slotholes-plated.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=fc_pcb-roundholes-nonplated.txt|DrillLayers=gtl,gp1,gp2,gbl
